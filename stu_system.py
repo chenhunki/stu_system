@@ -33,21 +33,7 @@ def search_stu():
 
 def main():
     while(True):
-        user_input = input(">")
-        # print(user_input)
-        #增加学生信息
-        if(user_input == "1"):
-            add_stu()
-            print("学生信息增加成功！")
-        #删除学生的信息
-        elif(user_input == "2"):
-            del_stu()
-        #查询学生信息
-        elif(user_input == "3"):
-            search_stu()
-        #退出入口
-        elif(user_input == "0"):
-            exit()
+        pass
         
 if __name__ == "__main__":
     main()
